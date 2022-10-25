@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #012641;
+}
+
+.container{
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 175px);
+}
