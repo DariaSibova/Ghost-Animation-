@@ -55,3 +55,14 @@ body{
   background-color: #FFF;
   border-radius: 50%;
 }
+
+.ghost-1-eyes::after{
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  background-color: #000;
+  border-radius: 50%;
+}
