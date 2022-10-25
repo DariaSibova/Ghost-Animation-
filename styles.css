@@ -136,3 +136,31 @@ body{
   background-color: #000;
   border-radius: 0 40px 40px 0;
 }
+
+@keyframes ghost2{
+  0%{
+    transform: translateY(0px);
+  }
+  40%{
+    transform: translateY(10px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+
+.ghost-2 {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  z-index: 3;
+  top: 60px;
+  right: 0;
+  background-color: #FFF;
+  border-radius: 100px 100px 0 0;
+  animation: ghost2 4s 1s linear infinite;
+}
