@@ -66,3 +66,34 @@ body{
   background-color: #000;
   border-radius: 50%;
 }
+
+.ghost-1-eyes-right{
+  right: 20px;
+}
+
+.ghost-1-eyes-left{
+  right: 60px;
+}
+
+@keyframes mouth1{
+  0%{
+    height: 20px;
+    border-radius: 0 0 100px 100px;
+  }
+  30%{
+    height: 6px;
+    border-radius: 0 0 100px 100px;
+  }
+  50%{
+    height: 6px;
+    border-radius: 0 0 100px 100px;
+  }
+  60%{
+    height: 20px;
+    border-radius: 100px 100px 0 0;
+  }
+  100%{
+    height: 20px;
+    border-radius: 100px 100px 0 0;
+  }
+}
